@@ -1,0 +1,21 @@
+i.Home page 
+    -Navbar
+        - Four links on the far left .
+        - Logo of the website on the far right
+    -Background image ? how to get the image to properly cover the entire page without looking like it's zoomed in.
+
+ii. About page
+    - Decription of the purpose of the website.
+    - Split column layout 
+
+iii. Services page 
+    -
+    -
+
+iv. Feedback page
+    -
+    -
+rel="noreferrer noopener" helps with security and prevents tabnabbing 
+
+Info required - full Decription of incident
+              - 

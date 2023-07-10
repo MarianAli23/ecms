@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Complaint Form</title>
+
+    <link href="../CSS/complaint-form.css" rel="stylesheet" />
+  </head>
+
+  <nav>
+    <ul class="nav-links">
+      <li>
+        <a href="Home.html" target="_blank" rel="noreferrer noopener">Home</a>
+      </li>
+
+      <li>
+        <a href="about.html" target="_blank" rel="noreferrer noopener">About</a>
+      </li>
+    </ul>
+  </nav>
+  <body>
+    <h2>Employee Complaint Form</h2>
+
+    <form id="complaintForm" class="form-complaint">
+      <div style="display: flex; gap: 50px; justify-content: space-between">
+        <div style="width: 100%">
+          <label for="accusedEmployee">Accused Employee:</label>
+          <input
+            type="text"
+            id="accusedEmployee"
+            name="accusedEmployee"
+            required
+          />
+        </div>
+        <div style="width: 100%">
+          <label for="incidentDate">Incident Date:</label>
+          <input type="text" id="incidentDate" name="incidentDate" required />
+        </div>
+      </div>
+
+      <label for="complaintDescription">Complaint Description:</label>
+      <textarea
+        id="complaintDescription"
+        name="complaintDescription"
+        rows="5"
+        required
+      ></textarea>
+
+      <label for="contactInformation">Contact Information (Optional):</label>
+      <input type="text" id="contactInformation" name="contactInformation" />
+
+      <button type="submit">Submit Complaint</button>
+    </form>
+  </body>
+  <!--admin dashboard-->
+  <button id="delete_form">Delete info</button>
+
+  <script src="../index.js"></script>
+</html>

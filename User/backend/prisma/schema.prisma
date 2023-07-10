@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://root:dont forget@localhost:3306/ecms"
+}
+
+model complaints {
+  id                   Int      @id @default(autoincrement())
+  AccusedEmployee      String
+  IncidentDate         String
+  ComplaintDescription String   
+  ContactInfo          String?
+  createdAt            DateTime @default(now())
+}
